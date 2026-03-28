@@ -1,6 +1,9 @@
-def main():
-    print("Hello from halovamake!")
+from fastapi import FastAPI
+app = FastAPI()
 
+@app.get("/")
+def test():
+    return {"message": "choluj je zmrd"}
 
 if __name__ == "__main__":
     main()
