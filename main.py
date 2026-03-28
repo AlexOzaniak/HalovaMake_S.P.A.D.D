@@ -3,7 +3,6 @@ app = FastAPI()
 
 @app.get("/")
 def test():
-    return {"message": "choluj je zmrd"}
+    return {"message": "choluj je randomak"}
 
-@app.post("/test/")
- 
+# @app.post("/test/")
