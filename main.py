@@ -5,6 +5,7 @@ app = FastAPI()
 def test():
     return {"message": "choluj je zmrd"}
 
+# @app.post("/test/")   
 if __name__ == "__main__":
     main()
 print("This is a test of the halovamake package.")
